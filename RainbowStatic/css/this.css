@@ -1,0 +1,38 @@
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	background-color:red;	
+	border-top: 20px solid #f00;
+}
+
+
+
+
+#outPopUp{
+     position:absolute;
+     z-index:15;
+     top:50%;
+     left:50%;
+     background:white;
+}
+
+
+#container
+{
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+#viewport
+{
+  height: 100%;
+  width: 100%;
+}
+#controls
+{
+bottom:0;
+  position: absolute;
+  width: 100%;
+}
